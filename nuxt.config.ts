@@ -11,6 +11,12 @@ const nuxtConfig: NuxtConfig = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description ?? '' }
     ]
   },
+  plugins: [
+    '~/plugins/axios'
+  ],
+  modules: [
+    '@nuxtjs/axios'
+  ],
   buildModules: [
     '@nuxt/typescript-build'
   ],
