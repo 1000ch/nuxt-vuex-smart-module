@@ -10,15 +10,15 @@
     "generate": "nuxt-ts generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.9.4",
-    "consola": "^2.11.3",
+    "@nuxtjs/axios": "^5.11.0",
+    "consola": "^2.14.0",
     "core-js": "2.6.9",
-    "nuxt": "^2.0.0",
-    "vuex-smart-module": "^0.3.2"
+    "nuxt": "^2.13.0",
+    "vuex-smart-module": "^0.4.2"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^0.6.2",
-    "@nuxt/typescript-runtime": "^0.4.2",
-    "@types/node": "^12.0.0"
+    "@nuxt/typescript-build": "^1.0.0",
+    "@nuxt/typescript-runtime": "^0.4.10",
+    "@types/node": "^14.0.0"
   }
 }
