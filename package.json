@@ -11,7 +11,7 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^1.0.0",
     "@nuxtjs/axios": "^5.11.0",
-    "consola": "^2.14.0",
+    "consola": "^2.15.0",
     "nuxt": "^2.13.3",
     "vuex-smart-module": "^0.4.4"
   },
