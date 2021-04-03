@@ -4,20 +4,19 @@
   "author": "1000ch",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.0.1",
-    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/axios": "^5.13.1",
     "consola": "^2.15.0",
-    "nuxt": "^2.15.0",
+    "nuxt": "^2.15.4",
     "vuex-smart-module": "^0.5.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.0",
-    "@nuxt/typescript-build": "^2.0.4",
-    "@types/node": "^14.14.22"
+    "@nuxt/types": "^2.15.4",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@types/node": "^14.14.37"
   }
 }
