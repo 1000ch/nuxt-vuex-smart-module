@@ -1,0 +1,43 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.25
+    - 14.14.28
+    - 14.14.31
+    - 14.14.32
+    - 14.14.35
+    - 14.14.37
+  - dependency-name: "@nuxt/types"
+    versions:
+    - 2.15.0
+    - 2.15.2
+    - 2.15.3
+  - dependency-name: nuxt
+    versions:
+    - 2.15.0
+    - 2.15.2
+    - 2.15.3
+  - dependency-name: "@nuxt/typescript-runtime"
+    versions:
+    - 2.0.2
+    - 2.1.0
+  - dependency-name: "@nuxt/typescript-build"
+    versions:
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+  - dependency-name: "@nuxtjs/axios"
+    versions:
+    - 5.13.0
+    - 5.13.1
+  - dependency-name: consola
+    versions:
+    - 2.15.3
