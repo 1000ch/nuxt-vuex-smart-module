@@ -9,7 +9,7 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/axios": "^5.13.3",
     "consola": "^2.15.0",
     "nuxt": "^2.15.6",
     "vuex-smart-module": "^0.5.0"
