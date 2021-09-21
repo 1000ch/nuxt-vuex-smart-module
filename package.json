@@ -1,8 +1,8 @@
 {
   "name": "nuxt-vuex-smart-module",
   "version": "0.0.0",
-  "author": "1000ch",
   "private": true,
+  "author": "1000ch",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -18,5 +18,9 @@
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@types/node": "^16.9.4"
+  },
+  "engines": {
+    "node": "16",
+    "npm": "7"
   }
 }
