@@ -9,14 +9,14 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/axios": "^5.13.6",
     "consola": "^2.15.0",
-    "nuxt": "^2.15.6",
+    "nuxt": "^2.15.8",
     "vuex-smart-module": "^1.0.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.6",
+    "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
-    "@types/node": "^14.14.37"
+    "@types/node": "^16.9.4"
   }
 }
